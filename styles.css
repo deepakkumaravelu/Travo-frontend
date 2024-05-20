@@ -1,0 +1,73 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+}
+nav ul{
+    display: flex;
+    gap:30px;
+}
+.heroimg img{
+    width: 400px;
+    height: 250px;
+}
+.herosection{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    margin: 50px;
+}
+.herosection .details{
+    padding: 50px;
+}
+.btn button{
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    height: 30px;
+}
+.cards{
+    display: flex;
+    margin: 50px;
+}
+.cards .card{
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.heroimgsection img{
+    margin: 50px;
+    height: 500px;
+    width: auto;
+}
+.heroimgsection{
+    position: relative;
+}
+.heroimgsection .details{
+    position: absolute;
+    top:0;
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 53px;
+    /* margin: 50px; */
+    padding: 10px;
+    background-color:rgba(240, 248, 255, 0.384)
+}
+.ftcontent{
+    display: flex;
+    justify-content: space-around;
+
+}
+.ftcontent .descrip{
+    display: flex;
+}
+.footer{
+    background-color: aliceblue;
+}
